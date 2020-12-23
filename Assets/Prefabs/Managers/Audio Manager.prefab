@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8741669420112745054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8741669420112745053}
+  - component: {fileID: 8741669420112745052}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8741669420112745053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741669420112745054}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 321, y: 180.625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8741669420112745052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8741669420112745054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c82aeda591da4d9dddf54301c1cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greenAttackClips:
+  - {fileID: 8300000, guid: a58082e43de068d48920492831bcbdc8, type: 3}
+  - {fileID: 8300000, guid: dc71a020695ce8b438c00138585ab860, type: 3}
+  - {fileID: 8300000, guid: 416647556e5d71b46acb1b90109f2f5a, type: 3}
+  greenIdleClips:
+  - {fileID: 8300000, guid: aac4d23961b21124398aec7ae52e4137, type: 3}
+  greenHurtClips:
+  - {fileID: 8300000, guid: 35fe1bbde641d4744ae12976f346a89c, type: 3}
+  - {fileID: 8300000, guid: 33e658f316cac0740ac785d04916cc54, type: 3}
+  - {fileID: 8300000, guid: e89830d78a28682499bd17144a9de0b6, type: 3}
+  - {fileID: 8300000, guid: 0e31c91fa7178a345a950ece8f139316, type: 3}
+  greenMoveClips:
+  - {fileID: 8300000, guid: 7d8290b54f216b64bbe6b9fa59c4ecf0, type: 3}
+  - {fileID: 8300000, guid: f07b8f5b0146ce44f966cddffc13c0ec, type: 3}
+  greenAbility1Clips:
+  - {fileID: 8300000, guid: 53d2f7ad43decb54bbe9db3b7c9b91db, type: 3}
+  greenAbility1AltClips: []
+  greenAbility2Clips:
+  - {fileID: 8300000, guid: 65c54f789bfdc6b428dd034596acf185, type: 3}
+  greenAbility2AltClips: []
+  blueAttackClips:
+  - {fileID: 8300000, guid: c88cb12f2c84c09418fab7adcc1a9c5f, type: 3}
+  - {fileID: 8300000, guid: 2d7284b1aaa559c408c7a5e3c77f68d9, type: 3}
+  blueIdleClips:
+  - {fileID: 8300000, guid: 96f331ffa690a5f46aff213514e3238d, type: 3}
+  - {fileID: 8300000, guid: 3009c2d547c179548935469bd107a9de, type: 3}
+  blueHurtClips:
+  - {fileID: 8300000, guid: cf5977af80896fb4b8236b76ab7ac21d, type: 3}
+  - {fileID: 8300000, guid: 6972b658bf65e4d458783c856b3f3754, type: 3}
+  blueMoveClips:
+  - {fileID: 8300000, guid: 3009c2d547c179548935469bd107a9de, type: 3}
+  - {fileID: 8300000, guid: 73a33d3e96ee4d34bb2a4302aea0722f, type: 3}
+  blueAbility1Clips:
+  - {fileID: 8300000, guid: 34d41428399f06a42bfe48afdd71e7d4, type: 3}
+  blueAbility1AltClips: []
+  blueAbility2Clips:
+  - {fileID: 8300000, guid: 80b4fdecf4ab309459ea060d1da7b3b1, type: 3}
+  blueAbility2AltClips: []
+  pinkAttackClips:
+  - {fileID: 8300000, guid: 027a2fd1397f0224999cae4de9d71b8d, type: 3}
+  - {fileID: 8300000, guid: cd2735353492de746b948503a908cccf, type: 3}
+  - {fileID: 8300000, guid: c6b7ddca0bd13ba46b2446bd3f0a305a, type: 3}
+  - {fileID: 8300000, guid: b2f76525ccbb2544286b65e5a3cbb8db, type: 3}
+  pinkIdleClips: []
+  pinkHurtClips:
+  - {fileID: 8300000, guid: a8e0f3fe6490c9b4cb127557c251aa4e, type: 3}
+  - {fileID: 8300000, guid: e089daa44c1e06c459c4f530096f1119, type: 3}
+  pinkMoveClips:
+  - {fileID: 8300000, guid: 9daf4c4f0f4fbfb4496591450bf494e6, type: 3}
+  - {fileID: 8300000, guid: 12e7d0a89e450d24b920d210cfb3f8e1, type: 3}
+  - {fileID: 8300000, guid: 5b54dc2a530415d4bbe3e6a7b06614af, type: 3}
+  pinkAbility1Clips:
+  - {fileID: 8300000, guid: 6d52a92f452117c44a689bf8d0bf2ad0, type: 3}
+  - {fileID: 8300000, guid: 501040da701c6a74eaf36e74b3d1b64e, type: 3}
+  - {fileID: 8300000, guid: 2642f67a2ac20c546b67f63927b75e03, type: 3}
+  pinkAbility1AltClips: []
+  pinkAbility2Clips:
+  - {fileID: 8300000, guid: a13f428e4745e2942bdefe7303c8d228, type: 3}
+  - {fileID: 8300000, guid: 909da4fa2d0216f449fb827cc0910e2a, type: 3}
+  - {fileID: 8300000, guid: 55054253378daaa46b04feccaaacbfa6, type: 3}
+  pinkAbility2AltClips: []
+  blackAttackClips:
+  - {fileID: 8300000, guid: 01bb28cca87c0d545ba56989a8844ca9, type: 3}
+  - {fileID: 8300000, guid: 6b1dd7f99b5bbfa4584562a77f2f9730, type: 3}
+  - {fileID: 8300000, guid: 021ae0595c23534498c9262ab3874d33, type: 3}
+  blackIdleClips: []
+  blackHurtClips:
+  - {fileID: 8300000, guid: 5d5efe112a736c643872136af5c37c44, type: 3}
+  - {fileID: 8300000, guid: 691658fec458b8f4797f79789d189633, type: 3}
+  - {fileID: 8300000, guid: dd4d99e04efa83540a9fe41542e7d2d6, type: 3}
+  blackMoveClips:
+  - {fileID: 8300000, guid: 8422e72d22e55e04bb2ff268a362cb93, type: 3}
+  - {fileID: 8300000, guid: 50bfc3d60d760be4691f07e3857ea341, type: 3}
+  - {fileID: 8300000, guid: 5e80e3b77d06021439e8ecc3088230fc, type: 3}
+  blackAbility1Clips:
+  - {fileID: 8300000, guid: 1b22c580a4981fb458a7c2733e95b061, type: 3}
+  - {fileID: 8300000, guid: 96142e808b8f152458f19249978d3530, type: 3}
+  - {fileID: 8300000, guid: e3ebb6d7fed2bdc44a41164db8e951b7, type: 3}
+  blackAbility1AltClips: []
+  blackAbility2Clips:
+  - {fileID: 8300000, guid: 923ba3c4bc3b7704eba5b641e87ae84f, type: 3}
+  - {fileID: 8300000, guid: a084221727cb0cc458f7ff3659da4864, type: 3}
+  - {fileID: 8300000, guid: e8a070e1d7eace247aed4b40fe01aab7, type: 3}
+  - {fileID: 8300000, guid: 0d3637d7a12132e4d8f1b091eeedd043, type: 3}
+  blackAbility2AltClips: []
+  redAttackClips:
+  - {fileID: 8300000, guid: 43fa04b6fdb8e7943a7e8ecbd2c64f2e, type: 3}
+  - {fileID: 8300000, guid: 37442f8b82fc2dc48ac32acd179e168c, type: 3}
+  - {fileID: 8300000, guid: d631284da9eba024894a4c22275a3eac, type: 3}
+  redIdleClips:
+  - {fileID: 8300000, guid: a563dfe5cfa2e3844b9bd341c85d01e6, type: 3}
+  - {fileID: 8300000, guid: 1148c4d579843134b9d62e43315c7b88, type: 3}
+  - {fileID: 8300000, guid: 089835b7cf9c61a4896caa2cd52930e7, type: 3}
+  redHurtClips:
+  - {fileID: 8300000, guid: 7f98c18ac53ab764faddee4569d5aaaa, type: 3}
+  - {fileID: 8300000, guid: d5203c9e114af1144b14f2b1c783594b, type: 3}
+  - {fileID: 8300000, guid: 9447f91e7321a694787ce304df3741e3, type: 3}
+  redMoveClips:
+  - {fileID: 8300000, guid: f3f272eec3af12445bf9711a10c0db67, type: 3}
+  - {fileID: 8300000, guid: 03a5ae9cf14cbe44f8a2000fd71381a6, type: 3}
+  - {fileID: 8300000, guid: 290c034a955308c428b0a157b0823a94, type: 3}
+  redAbility1Clips:
+  - {fileID: 8300000, guid: a563dfe5cfa2e3844b9bd341c85d01e6, type: 3}
+  - {fileID: 8300000, guid: dba52fb55d8401d409cfef0901f28701, type: 3}
+  redAbility1AltClips: []
+  redAbility2Clips:
+  - {fileID: 8300000, guid: f130812e95bf1ff4ebab723cc183fbb1, type: 3}
+  - {fileID: 8300000, guid: 1847ee3b0080d444f9553273726e7268, type: 3}
+  - {fileID: 8300000, guid: 123bc923cdf2dd64c8cfcfc85a5778c5, type: 3}
+  - {fileID: 8300000, guid: 168ccf7d5040b6c4b92f6c368ea7fc27, type: 3}
+  redAbility2AltClips: []

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: ac87aacd5594e83408a205089791358b
+  - enabled: 1
+    path: Assets/Scenes/intermission Scene.unity
+    guid: 1459076369ce9244b84201a161d81c83
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 94002297324d1dc4fa94b570b3869c69
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/Tutorial Level.unity
+    guid: ed500ca23d36bce4096267a03f7458ee
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/Bear Kingdom.unity
+    guid: bd05cad346c7e9243a76f894c7cb87fa
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/Buck Kingdom.unity
+    guid: 512a5fd48fab0504d8b7e6414c7cd6ba
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/Lion Kingdom.unity
+    guid: 10e0688f271f9994da0b5321604fe54b
+  - enabled: 1
+    path: Assets/Scenes/Level Scenes/Ram Kingdom.unity
+    guid: d7cda726c8006bd41ac0f69467e2e14b
+  - enabled: 1
+    path: Assets/Scenes/CutScene.unity
+    guid: d48cda9987bac0a4a80cf8ad2b1195e3
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f3ef86eaeef0f7c40adbfff04ab269a7,
+      type: 2}
